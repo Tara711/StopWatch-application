@@ -1,0 +1,28 @@
+.stopwatch {
+  height: 500px;
+  background-color: skyblue;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.stopwatch_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+.start,
+.stop {
+  padding: 8px 15px;
+  margin-inline: 1rem;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.start:active,
+.stop:active {
+  background-color: rgb(192, 189, 189);
+}
